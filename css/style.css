@@ -1,0 +1,135 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Meow+Script&family=Pacifico&display=swap');
+
+
+/* 전역범위 스타일 */
+* {
+    padding: 0;
+    margin: 0 auto;
+    font-family: 'Gowun Dodum', sans-serif;
+    box-sizing: border-box;
+}
+body {
+    background-color: #F8D8B2;
+}
+.wrap1 {
+    width: calc(100% - 20%);
+    height: 100%;
+    background-color: #333;
+}
+
+
+/* header start */
+header{
+    width: 100%;
+    height: 100px;
+    background-color: #DB8183;
+}
+.logo{
+    float: left;
+    width: 200px;
+    height: 100px;
+    background-color: #ccc;
+}
+nav{
+    float: right;
+    width: 35%;
+    height: 50px;
+    background-color: #ddd;
+    margin-top: 25px;
+}
+/* header end */
+
+
+/* contents start */
+.contents{
+    width: calc(100% - 20%);
+    height: auto;
+    background-color: beige;
+}
+.lettering{
+    width: 100%;
+    height: 550px;
+    background-color: bisque;
+    margin: 25px 0;
+}
+.popular{
+    width: 100%;
+    height: 560px;
+    margin: 25px 0;
+    background-color: blanchedalmond;
+}
+
+.banner{
+    width: 100%;
+    height: 200px;
+    background-color: #aaa;
+}
+
+.order{
+    width: 100%;
+    height: 260px;
+    background-color: lightgoldenrodyellow;
+    margin: 25px 0;
+}
+
+.ad{
+    width: 100%;
+    height: 600px;
+    background-color: lightyellow;
+    margin: 25px 0;
+}
+/* contents end */
+
+
+/* footer start */
+footer{
+    width: 100%;
+    height: 525px;
+    background-color: #4E183F;
+}
+
+.foot_nav{
+    float: right;
+    width: 100%;
+    height: 50px;
+    background-color: #ccc;
+}
+.wrap2{
+    float: left;
+    width: 70%;
+    height: calc(100% - 40%);
+}
+.contact{
+    width: 33.333%;
+    height: 100%;
+    background-color: #aaa;
+    float: left;
+}
+.pscake{
+    width: 33.333%;
+    height: 100%;
+    background-color: #999;
+    float: left;
+}
+.service{
+    width: 33.333%;
+    height: 100%;
+    background-color: #aaa;
+    float: left;
+}
+.info {
+    clear: both;
+    width: 100%;
+    line-height: 1.5;
+    font-size: 14px;
+    color: #5e5e5e;
+}
+hr {
+    margin: 25px 0;
+    border: 1px solid #ffffff;
+}
+.copy {
+    text-align: center;
+    color: #ffffff;
+}
