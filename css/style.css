@@ -15,9 +15,6 @@
     box-sizing: border-box;
     list-style: none;
 }
-body {
-    /* background: url("../img/background.jpg") center center; */
-}
 a {
     text-decoration: none;
 }
@@ -56,7 +53,7 @@ nav{
 .menu li>a {
     font-family: 'HSBombaram3_Regular';
     color: #84171A;
-    font-size: 20px;
+    font-size: 100%;
 }
 .menu li>a:hover {
     color: #BF2C38;
@@ -186,7 +183,7 @@ nav{
 .ad{
     position: relative;
     width: 100%;
-    height: 600px;
+    height: 590px;
     margin: 100px auto;
     background-color: beige;
 }
@@ -211,14 +208,14 @@ nav{
 }
 .ad2 img {
     float: left;
-    width: 96%;
+    /* width: 96%; */
 }
 .ad3 {
     position: absolute;
     left: 36%;
     bottom: 0%;
     background-color: #DB8183;
-    height: 295px;
+    height: 268px;
 }
 .ad4 {
     position: absolute;
@@ -234,7 +231,7 @@ nav{
 /* footer start */
 .footer{
     height: 450px;
-    background-color: #84171A;
+    background-color: #8F5EA6;
 }
 .foot_nav{
     float: right;

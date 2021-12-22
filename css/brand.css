@@ -1,0 +1,39 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Meow+Script&family=Pacifico&display=swap');
+@font-face {
+    font-family: 'HSBombaram3_Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.1/HSBombaram3_Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* contents start */
+.brand_intro {
+    width: 100%;
+    background-color: beige;
+}
+.text_b h2 {
+    font-family: 'HSBombaram3_Regular';
+    text-align: center;
+    padding: 15px 0;
+}
+.text_b p {
+    text-align: center;
+    line-height: 1.8;
+}
+.intro_img {
+    height: auto;
+    background-color: blanchedalmond;
+}
+.intro_img li {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+.intro_img img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+/* contents end */
