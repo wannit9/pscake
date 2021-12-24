@@ -128,10 +128,10 @@ nav{
     top: 30px;
     width: 110px;
     height: 40px;
-    background-color: transparent;
     border: 1px solid #fff67e;
     font-size: 14px;
-    background-color: #fffbb6;
+    background-color: #fdf9be;
+    color: #333333;
 }
 .btn:active {
     transition: all 0.1s linear;
@@ -181,48 +181,13 @@ nav{
 }
 
 .ad{
-    position: relative;
     width: 100%;
-    height: 590px;
+    height: 600px;
     margin: 100px auto;
     background-color: beige;
 }
-.ad1 {
-    position: absolute;
-    top:0%;
-    left:0%;
-    background-color: #c76062;
-}
-.ad1 img {
-    float: left;
-    width: 100%;
-    height: 100%;
-}
-.ad2 {
-    position: absolute;
-    top:0%;
-    left: 36%;
-    /* width: 650px; */
-    height: 267px;
-    overflow: hidden;
-}
-.ad2 img {
-    float: left;
-    /* width: 96%; */
-}
-.ad3 {
-    position: absolute;
-    left: 36%;
-    bottom: 0%;
-    background-color: #DB8183;
-    height: 268px;
-}
-.ad4 {
-    position: absolute;
-    right: 0%;
-    bottom: 0%;
-    background-color: #c76062;
-    height: 295px;
+.ad .ad1 {
+    background-color: #FFAEC7;
 }
 
 /* contents end */
@@ -230,30 +195,24 @@ nav{
 
 /* footer start */
 .footer{
-    height: 450px;
+    height: 400px;
     background-color: #8F5EA6;
 }
 .foot_nav{
-    float: right;
-    width: 70%;
+    width: 100%;
     height: 50px;
-    margin: 1% 0;
+    margin-bottom: 20px;
 }
 .foot_nav li {
-    float: left;
-    width: 33.3%;
+    width: 250px;
+    line-height:50px;
     text-align: center;
-    line-height: 50px;
 }
 .foot_nav li a {
     color: #ffffff;
 }
-.container-sm{
-    float: left;
-    width: 80%;
-    height: 150px;
-    margin-left: -15px;
-    margin-bottom: 5%;
+.foot_nav2 {
+    width:80%;
 }
 .contact, .pscake, .service {
     color: #ffffff;
@@ -262,29 +221,22 @@ nav{
     line-height: 40px;
 }
 .contact{
-    float: left;
-    width: 40%;
     height: 100%;
 }
 .contact h4 {
     padding-bottom: 10px;
 }
 .pscake{
-    float: left;
-    width: 30%;
     height: 100%;
 }
 .pscake a, .service a {
     color: #ffffff;
 }
 .service{
-    float: left;
-    width: 30%;
     height: 100%;
 }
 .info {
-    clear: both;
-    width: 100%;
+    width: 70%;
     line-height: 1.5;
     font-size: 14px;
     color: #F6F3E2;
@@ -296,4 +248,18 @@ hr {
 .copy {
     text-align: center;
     color: #ffffff;
+}
+
+/* footer end */
+
+
+/* popup start */
+.popup {
+    width: 388px;
+    height: 700px;
+    position: relative;
+}
+.popup>.close {
+    position: absolute;
+    top: 500px;
 }
