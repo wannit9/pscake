@@ -122,7 +122,7 @@ nav{
     height: auto;
     margin: 100px 0;
 }
-.btn {
+.more_btn, .order_btn {
     position: absolute;
     right: 0;
     top: 30px;
@@ -133,9 +133,11 @@ nav{
     background-color: #fdf9be;
     color: #333333;
 }
-.btn:active {
+.btn:hover {
     transition: all 0.1s linear;
-    background-color: #fff67e;
+    background-color: #f3e73c;
+    border: 1px solid #f3e73c;
+    color: #333333;
 }
 .popular ul li {
     height: 600px;
@@ -182,12 +184,9 @@ nav{
 
 .ad{
     width: 100%;
-    height: 600px;
+    height: 300px;
     margin: 100px auto;
-    background-color: beige;
-}
-.ad .ad1 {
-    background-color: #FFAEC7;
+    /* background-color: beige; */
 }
 
 /* contents end */
@@ -196,7 +195,7 @@ nav{
 /* footer start */
 .footer{
     height: 400px;
-    background-color: #8F5EA6;
+    background: #DB8183;
 }
 .foot_nav{
     width: 100%;
@@ -209,13 +208,14 @@ nav{
     text-align: center;
 }
 .foot_nav li a {
-    color: #ffffff;
+    color: #84171A;
+    font-weight: bolder;
 }
 .foot_nav2 {
     width:80%;
 }
 .contact, .pscake, .service {
-    color: #ffffff;
+    color: #84171A;
 }
 .contact li, .pscake li, .service li {
     line-height: 40px;
@@ -230,7 +230,7 @@ nav{
     height: 100%;
 }
 .pscake a, .service a {
-    color: #ffffff;
+    color: #84171A;
 }
 .service{
     height: 100%;
@@ -239,15 +239,15 @@ nav{
     width: 70%;
     line-height: 1.5;
     font-size: 14px;
-    color: #F6F3E2;
+    color: #BF2C38;
 }
 hr {
     margin: 25px 0;
-    border: 1px solid #ffffff;
+    border: 1px solid #84171A;
 }
 .copy {
     text-align: center;
-    color: #ffffff;
+    color: #BF2C38;
 }
 
 /* footer end */
@@ -256,10 +256,15 @@ hr {
 /* popup start */
 .popup {
     width: 388px;
-    height: 700px;
-    position: relative;
+    height: 600px;
+    position: fixed;
+    z-index: 9999;
+    top: 200px;
+    left: 750px;
+    box-shadow: 0 0 10px 0 #84171A;
 }
-.popup>.close {
+.close {
     position: absolute;
-    top: 500px;
+    bottom: 15px;
+    right: 15px;
 }

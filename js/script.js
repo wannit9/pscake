@@ -1,5 +1,8 @@
 $(function(){
     cake();
+    $(".close").click(function(){
+        $(".popup").hide();
+    });
 });
 
 function cake(){
