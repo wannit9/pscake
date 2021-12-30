@@ -1,30 +1,43 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Meow+Script&family=Pacifico&display=swap');
 @font-face {
-    font-family: 'HSBombaram3_Regular';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.1/HSBombaram3_Regular.woff') format('woff');
+    font-family: 'Binggrae-Two';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Binggrae-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Katuri';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_13@1.0/Katuri.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 
+
 /* contents start */
+.contents {
+    margin-top: 50px;
+}
 .brand_intro {
-    width: 100%;
-    background-color: beige;
+    /* background-color: beige; */
 }
 .text_b h2 {
-    font-family: 'HSBombaram3_Regular';
-    text-align: center;
-    padding: 15px 0;
+    font-family: 'Katuri';
+    margin-top: 1.2rem;
+    margin-left: 50px;
+    color: #ffdae9;
+    -webkit-text-stroke: 1.5px #ff5f90;
 }
 .text_b p {
-    text-align: center;
-    line-height: 1.8;
+    line-height: 1.5;
+    margin-left: 80px;
+    margin-top: 2.5rem;
 }
+
 .intro_img {
     height: auto;
-    background-color: blanchedalmond;
+    margin-top: 3rem;
 }
 .intro_img li {
     float: left;
@@ -33,18 +46,50 @@
 }
 .intro_img img {
     width: 100%;
-    height: 200px;
+    height: 300px;
     object-fit: cover;
 }
+.intro_img p {
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
 .special {
-    background-color: beige;
+    /* background-color: beige; */
+    margin-top: 3rem;
 }
 .deco-img {
     display: flex;
-    max-width: 400px;
-    max-height: 200px;
+    justify-content: space-between;
+    max-height: 250px;
+    margin-bottom: 5rem;
 }
 .deco-img img {
     object-fit: cover;
+    width: 100%;
+    height: 100%;
+    margin-top: 3rem;
+}
+.deco-img2 {
+    display: flex;
+    justify-content: space-between;
+    max-height:400px;
+    margin-bottom: 5rem;
+}
+.deco-img2 img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    margin-top: 3rem;
+}
+.del_link a {
+    color: #000000;
+    position: absolute;
+    top: 50%;
+    right: 27px;
+}
+.del_link a:hover {
+    color: #ff5f90;
 }
 /* contents end */
