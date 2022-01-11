@@ -23,11 +23,11 @@
     /* background-color: beige; */
 }
 .text_b h2 {
-    font-family: 'Katuri';
     margin-top: 1.2rem;
     margin-left: 50px;
-    color: #ffdae9;
-    -webkit-text-stroke: 1.5px #ff5f90;
+    color: #ff5f90;
+    font-weight: bolder;
+    /* -webkit-text-stroke: 1.5px #ff5f90; */
 }
 .text_b p {
     line-height: 1.5;
