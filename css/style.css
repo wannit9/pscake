@@ -21,6 +21,13 @@
     box-sizing: border-box;
     list-style: none;
 }
+body, html {
+    width: 100%;
+    height: 100%;
+}
+html {
+    scroll-behavior: smooth;
+}
 a {
     text-decoration: none;
 }
@@ -32,6 +39,28 @@ a:hover {
 }
 
 /* header start */
+.whole {
+    width: 100%;
+    height: 100%;
+    background: url("../img/deliver.jpg") no-repeat center fixed;
+    -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+}
+.txt1, .txt2 {
+    position: absolute;
+}
+.txt1 {
+    bottom: 30%;
+    left: 45%;
+}
+.txt2 {
+    bottom: 15%;
+    left: 49%;
+}
+.txt2 a {
+    color: #ffffff;
+}
 .header{
     background: url("../img/background.jpg") center center;
     position: relative;
